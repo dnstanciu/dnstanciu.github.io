@@ -1,2 +1,2 @@
 # dnstanciu.github.io
-Files for http://dragosstanciu.com/
+Files for https://dragosstanciu.com

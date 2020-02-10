@@ -1,101 +1,391 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158132089-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <link rel="stylesheet" type="text/css" href="https://dragosstanciu.com/theme/stylesheet/style.min.css">
+    gtag('config', 'UA-158132089-1');
+  </script>
 
-  <link rel="stylesheet" type="text/css" href="https://dragosstanciu.com/theme/pygments/github.min.css">
-  <link rel="stylesheet" type="text/css" href="https://dragosstanciu.com/theme/font-awesome/css/font-awesome.min.css">
-
-
-
-
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="" />
-
-
-    <meta name="author" content="Dragos Stanciu" />
-    <meta name="description" content="Dragos Stanciu's website" />
-<meta property="og:site_name" content="Dragos Stanciu"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Dragos Stanciu"/>
-<meta property="og:description" content="Dragos Stanciu's website"/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://dragosstanciu.com"/>
-<meta property="og:image" content="https://secure.gravatar.com/avatar/9520bffa0515e54859f849fc8b6b99e1?size=400">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Dragos Stanciu's website">
+  <meta name="author" content="Dragos Stanciu">
 
   <title>Dragos Stanciu &ndash; Welcome!</title>
 
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/favicon.png" sizes="32x32" />
 </head>
-<body>
-  <aside>
-    <div>
-      <a href="https://dragosstanciu.com">
-        <img src="https://secure.gravatar.com/avatar/9520bffa0515e54859f849fc8b6b99e1?size=400" alt="Dragos Stanciu" title="Dragos Stanciu">
-      </a>
-      <h1><a href="https://dragosstanciu.com">Dragos Stanciu</a></h1>
 
-<p>Software Developer</p>
-      <nav>
-        <ul class="list">
-          <li><a href="https://dragosstanciu.com/cv">cv</a></li>
-          <li><a href="https://dragosstanciu.com/github">github</a></li>
-          <li><a href="https://dragonprogrammer.com" target="_blank">Dragon Programmer blog</a></li>
-        </ul>
-      </nav>
+<body id="page-top">
 
-      <ul class="social">
-        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/dragosstanciu" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="sc-github" href="https://github.com/dnstanciu" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a class="sc-twitter" href="https://twitter.com/dnstanciu" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="sc-facebook" href="https://www.facebook.com/DragonProgrammer/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="sc-youtube" href="https://www.youtube.com/channel/UCvxBX7213FF2JCQC68Dx50A" target="_blank"><i class="fa fa-youtube"></i></a></li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Dragos Stanciu</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Dragos Stanciu profile">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#accomplishments">Accomplishments</a>
+        </li>
       </ul>
     </div>
+  </nav>
 
+  <div class="container-fluid p-0">
 
-  </aside>
-  <main>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Dragos
+          <span class="text-primary">Stanciu</span>
+        </h1>
+        <div class="subheading mb-5">London · United Kingdom ·
+          <a href="mailto:dragos@dragosstanciu.com">dragos@dragosstanciu.com</a>
+        </div>
+        <p class="lead mb-5">I'm an experienced software developer looking to apply and build on my programming and data analysis skills in the geospatial sector.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/dragosstanciu/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/dnstanciu">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/dnstanciu">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <hr class="m-0">
 
-<article class="single">
-  <header>
-    <h1 id="welcome">Welcome!</h1>
-  </header>
-  <div>
-    <!-- homepage as url='' -->
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
 
-<p>I am a software developer. You can find programming articles on my blog at <a href="https://dragonprogrammer.com">Dragon Programmer</a>.</p>
-<p>Check out my <a href="https://dragosstanciu.com/cv/">CV</a> or <a href="https://dragosstanciu.com/github/">GitHub</a> projects.</p>
-<p>Contact me at <a href="mailto:dragos@dragonprogrammer.com">dragos@dragonprogrammer.com</a>.</p>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">EF LD12 Cohort Member</h3>
+            <div class="subheading mb-3">Entrepreneur First</div>
+            <p>Member of the 12th London cohort of Entrepreneur First, one of the top accelerator programs in Europe.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">CTO and Co-founder</h3>
+            <div class="subheading mb-3">MeshFlow</div>
+            <p>The vision was to make accurate printing of complex engineering parts possible and safe for any industry.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2019 - December 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Founder</h3>
+            <div class="subheading mb-3">Self-employed</div>
+            <p>
+              <ul>
+                <li>Developing MVP to test idea in the HR technology sector.</li>
+                <li>Collaborating with business partner on requirements, user stories, and promotion.</li>
+                <li>Built API for back-end and web app for front-end (Django REST framework, Angular, Docker, Auth0, Google Cloud Platform).</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2018 - February 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineer</h3>
+            <div class="subheading mb-3">Avaloq Innovation</div>
+            <p>
+              <ul>
+                <li>Training in Regulatory Reporting and market data interfaces.</li>
+                <li>Collaborating with software architects, business analysts, consultants and customers to analyse, design and develop interfaces to third party systems (PL/SQL, Python).</li>
+                <li>Participating in Design Patterns reading group (Java EE).</li>
+                <li>Giving company-wide technical presentations.</li>
+                <li>Mentoring colleagues.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2017 - July 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Computer Vision Researcher</h3>
+            <div class="subheading mb-3">ETH Zürich</div>
+            <p>
+              <ul>
+                <li>Academic guest at ETH Zürich, <a href="https://v4rl.ethz.ch/">Vision for Robotics Lab</a>.</li>
+                <li>Researching the use of <a href="https://inivation.com/dvs/">neuromorphic chips</a> in robot navigation (C++, Python, MATLAB).</li>
+                <li>Supervised two master students.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2014 - December 2016</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Freelance Web Developer</h3>
+            <div class="subheading mb-3">Len Lothian Limited</div>
+            <p>
+              <ul>
+                <li>Automated a data entry task by creating web app for data retrieval, saving two hours/week (Python, Bottle web framework).</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2016</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Application Development and Maintenance Frontrunner</h3>
+            <div class="subheading mb-3">UK Data Archive</div>
+            <p>
+              <ul>
+                <li>Wrote unit tests with NUnit and integration tests with Selenium for web apps.</li>
+                <li>Built multithreaded logging service of user activity (C#, SQL).</li>
+                <li>Performed load testing of logging service using JMeter.</li>
+                <li>Continuous integration with Jenkins, issue tracking with JIRA within a team of 10.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2011 - June 2012</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Research Assistant</h3>
+            <div class="subheading mb-3">University of Essex</div>
+            <p>
+              <ul>
+                <li>Wrote software for comparing the performance of different feature detectors in computer vision (C++, OpenCV, MATLAB).</li>
+                <li>Implemented image stitching app as part of a two-student team project.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2011 - March 2012</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Edinburgh</h3>
+            <div class="subheading mb-3">MRes in Neuroinformatics</div>
+            <p>
+              <ul>
+                <li>MRes <a href="https://github.com/dnstanciu/masters-project/">Project</a>: <em>Graph Theory as an Alzheimer's Disease Diagnostic Instrument in the Context of Functional Brain Connectivity</em> - study into identifying differences in brain connectivity between Alzheimer's disease patients and healthy subjects (Grade: 75%).</li>
+                <li>Modules: Data Mining and Exploration, Machine Learning and Pattern Recognition, Probabilistic Modelling and Reasoning.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2013 - 2014</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Essex</h3>
+            <div class="subheading mb-3">BSc in Computer Science</div>
+            <p>
+              <ul>
+                <li>Classification: 1st class.</li>
+                <li>Modules: Data Structures and Algorithms, Software Engineering, Object-Oriented Programming, Computer Vision, Natural Language Engineering, Operating Systems.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2010 - 2013</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-docker"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-github"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-linux"></i>
+          </li>
+        </ul>
+
+        <ul class="fa-ul mb-0">
+          <li><i class="fa-li fa fa-check"></i>Advanced knowledge: Python, Machine Learning, Java, MATLAB, Git, Linux.</li>
+          <li><i class="fa-li fa fa-check"></i>Intermediate knowledge: C++, C#, SQL.</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="accomplishments">
+      <div class="w-100">
+        <h2 class="mb-5">Accomplishments</h2>
+
+        <div class="subheading mb-3">Awards</div>
+        <p>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2013 - scholarship and research grant to pursue MRes and PhD at the School of Informatics, University of Edinburgh. Awarded by the <a href="https://epsrc.ukri.org/">EPSRC</a>.</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2012 - 2<sup>nd</sup>
+            Year K. F. Bowden Memorial Prize by the School of Computer Science and Electronic Engineering of the University of Essex to the top four second year students across the School.</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            2011 - 1<sup>st</sup>
+            Year K. F. Bowden Memorial Prize by the School of Computer Science and Electronic Engineering of the University of Essex to the top four first year students across the School.</li>
+        </ul>
+        </p>
+
+        <div class="subheading mb-3">Certifications</div>
+        <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2010 - Oracle Database Design and Programming with SQL.</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2009 - Cisco CCNA Exploration (Network Fundamentals).</li>
+          </ul>
+        </p>
+
+        <div class="subheading mb-3">Projects</div>
+        <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2015 - National Data Science Bowl Plankton Classification Challenge - placed in the top 5.4% of teams (<a href="https://www.kaggle.com/c/datasciencebowl/leaderboard/private#team-134151">57/1049</a>) as part of a six-person team of PhD students.</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Writing programming tutorials on my blog <a href="https://dragonprogrammer.com/">Dragon Programmer</a>.</li>
+          </ul>
+        </p>
+
+      </div>
+
+    </section>
+
+    <footer class="p-3 p-lg-5 d-flex align-items-center">
+      <p>
+        &copy; Dragos Stanciu <script>document.write( new Date().getFullYear() );</script>
+      </p>
+    </footer>
+
   </div>
-</article>
 
-    <footer>
-<p>&copy; Dragos Stanciu 2018</p>
-<p>    Built using <a href="https://getpelican.com" target="_blank">Pelican</a> &amp; <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a>
-</p>    </footer>
-  </main>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
-
-
-<script type="application/ld+json">
-{
-  "@context" : "https://schema.org",
-  "@type" : "Blog",
-  "name": " Dragos Stanciu ",
-  "url" : "https://dragosstanciu.com",
-  "image": "https://secure.gravatar.com/avatar/9520bffa0515e54859f849fc8b6b99e1?size=400",
-  "description": "Dragos Stanciu's website"
-}
-</script>
 </body>
+
 </html>
